@@ -5,5 +5,5 @@
 template<typename T>
 void multiples (T& sum, T x, int n)
 {   
-    sum = x * (n * (n-1)) + 1;
+    sum = x * (n * (n+1)) + 1;
 }
